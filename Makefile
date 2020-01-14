@@ -17,7 +17,7 @@ PREFIX=`grep -i "prefix =" ../Makefile | grep -i -v exec | cut -d"=" -f 2`
 # Linux
 CC  = gcc
 CFLAGS = -Wall -O2 -Dlinux -DSTEREOGRAPH_ONLY -DX11GUI
-LDFLAGS = -ljpeg -lpng -lz -lm -lX11 -ldl -rdynamic -L/usr/X11R6/lib
+LOADLIBES = -ljpeg -lpng -lz -lm -lX11 -ldl -rdynamic -L/usr/X11R6/lib
 
 # HPUX
 #CC = cc
