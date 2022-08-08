@@ -26,7 +26,7 @@
 #include <math.h>
 #include <time.h>
 #include <dlfcn.h>
-#include <endian.h>
+/*#include <endian.h>*/
 
 #include <png.h>
 #include <jpeglib.h>
