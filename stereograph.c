@@ -36,6 +36,9 @@
 #define PACKAGE_DATA_DIR "/usr/share/stereograph"
 #endif
 
+int stereograph_verbose;
+int stereograph_error;
+char * stereograph_include_dir;
 
 /* control for the default binary */
 int main (int argc, char **argv) {
